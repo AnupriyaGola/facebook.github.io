@@ -1,0 +1,41 @@
+.root{
+font-size: 16px;
+}
+
+html,body{
+	height: 100%;
+	width:100%;
+}
+
+body{
+	background-image: url("dd.gif");
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	width: 100%;
+	height: auto;
+}
+
+#pills-profile-tab:hover{
+	color:black;
+}
+
+#pills-feed-tab:hover{
+	color:black;
+}
+
+@media screen and (max-width: 247px){
+	.nav{
+	  display: flex;
+	  flex-wrap:wrap;
+  }
+   .nav-item{
+	   width: 100%;
+   }
+   
+   body{
+	   position:relative;
+   }
+}
+   
+   
